@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Purple to blue gradient */
+}
+
+.stopwatch {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.display {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.controls button:hover {
+    background: #e0e0e0;
+}
+
+.laps {
+    list-style-type: none;
+    padding: 0;
+}
+
+.laps li {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
